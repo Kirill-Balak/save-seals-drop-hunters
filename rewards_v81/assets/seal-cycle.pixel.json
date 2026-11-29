@@ -1,0 +1,558 @@
+{
+  "version": 1,
+  "name": "seal-drift",
+  "width": 8,
+  "height": 8,
+  "palette": {
+    "o": "#1d2b53",
+    "s": "#c2c3c7",
+    "f": "#fff1e8"
+  },
+  "sheet": {
+    "columns": 4
+  },
+  "frames": [
+    {
+      "name": "e-glide",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "........",
+            "...oooo.",
+            ".ooffffo",
+            "osffffof",
+            ".offffff",
+            "oo.ssoo.",
+            "...oo..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-lift",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".....oo.",
+            "....offo",
+            "...offof",
+            "...offff",
+            "..offfoo",
+            "oosfffs.",
+            ".oooooo.",
+            ".....oo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-push",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            ".....oo.",
+            "...ooffo",
+            ".oofffof",
+            "osffffff",
+            ".offfsoo",
+            "oo.ooo..",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-release",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "........",
+            "..ooooo.",
+            ".ooffffo",
+            "osffffof",
+            ".offfsff",
+            "oo.ssoo.",
+            "....oo.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-glide",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "....offo",
+            "...offof",
+            "..offfff",
+            ".offfso.",
+            ".offsoo.",
+            "osoo....",
+            "oo......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-lift",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "....offo",
+            "...offof",
+            "...offff",
+            "..offffo",
+            "..offsoo",
+            ".oofssso",
+            "osooo.o.",
+            "oo......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-push",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "...ooffo",
+            "..offfof",
+            ".offfffo",
+            ".offfso.",
+            ".offssoo",
+            "osooso..",
+            "oo......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-release",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "....offo",
+            "..offfof",
+            ".offfffo",
+            ".offfso.",
+            ".offsoo.",
+            "osoo.o..",
+            ".o......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-glide",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "..offo..",
+            ".offffo.",
+            ".offffo.",
+            "osoffoso",
+            ".offffo.",
+            "..osso..",
+            "..o..o.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-lift",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "..offo..",
+            ".offffo.",
+            ".offffo.",
+            "osoffoso",
+            "o.offo.o",
+            "..offo..",
+            "..osso..",
+            "..o..o.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-push",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "..offo..",
+            ".offffo.",
+            ".offffo.",
+            ".offffo.",
+            "osoffoso",
+            "o.osso.o",
+            ".oossoo.",
+            ".o....o."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-release",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........",
+            "..offo..",
+            ".offffo.",
+            ".offffo.",
+            ".osffso.",
+            ".osffso.",
+            "..osfo..",
+            "..o..o.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-glide",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "oo......",
+            ".osoo...",
+            "..offo..",
+            ".offffo.",
+            ".offfffo",
+            "..offoff",
+            ".o.offff",
+            "....oooo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-lift",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "oo......",
+            ".osoo...",
+            "..offo..",
+            "..offfo.",
+            ".offffo.",
+            "ossfoffo",
+            "oo.offff",
+            "....oooo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-push",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "oo......",
+            ".osoo...",
+            "..offo..",
+            "osofffo.",
+            "ossfffo.",
+            ".ooffffo",
+            "...ofoff",
+            "....offo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-release",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".o......",
+            ".osoo...",
+            "..offo..",
+            ".offffo.",
+            ".offfffo",
+            ".osffoff",
+            ".o.offff",
+            "....oooo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-glide",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "..o..o..",
+            "..osso..",
+            "..offo..",
+            ".offffo.",
+            ".osffso.",
+            "ofoffofo",
+            "offfsffo",
+            ".ofssfo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-lift",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "..o..o..",
+            "..osso..",
+            "..offo..",
+            ".osffso.",
+            "osoffoso",
+            "ofoffofo",
+            "offfsffo",
+            "..oooo.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-push",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".o....o.",
+            ".oossoo.",
+            "..offo..",
+            "osoffoso",
+            "o.offo.o",
+            ".offffo.",
+            "ofoffofo",
+            ".ofssfo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-release",
+      "anchor": [
+        4,
+        4
+      ],
+      "duration": 200,
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "..o..o..",
+            "..osso..",
+            "..offo..",
+            ".offffo.",
+            "osoffoso",
+            "ofoffofo",
+            "offfsffo",
+            ".ofssfo."
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "e": {
+      "frames": [
+        "e-glide",
+        "e-lift",
+        "e-push",
+        "e-release"
+      ]
+    },
+    "ne": {
+      "frames": [
+        "ne-glide",
+        "ne-lift",
+        "ne-push",
+        "ne-release"
+      ]
+    },
+    "n": {
+      "frames": [
+        "n-glide",
+        "n-lift",
+        "n-push",
+        "n-release"
+      ]
+    },
+    "se": {
+      "frames": [
+        "se-glide",
+        "se-lift",
+        "se-push",
+        "se-release"
+      ]
+    },
+    "s": {
+      "frames": [
+        "s-glide",
+        "s-lift",
+        "s-push",
+        "s-release"
+      ]
+    }
+  }
+}

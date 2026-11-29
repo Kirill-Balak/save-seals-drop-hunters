@@ -1,0 +1,8 @@
+/.venv/
+/.deps/
+__pycache__/
+*.py[cod]
+/rewards_v124/save_seals_drop_hunters_v124.p8
+/rewards_v124/save_seals_drop_hunters_v124.p8.png
+/rewards_v125/save_seals_drop_hunters_v125.p8
+/rewards_v125/save_seals_drop_hunters.p8.png

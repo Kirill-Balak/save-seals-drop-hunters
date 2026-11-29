@@ -1,0 +1,1269 @@
+{
+  "version": 1,
+  "name": "poacher",
+  "width": 16,
+  "height": 12,
+  "palette": {
+    "k": "#1d2b53",
+    "p": "#7e2553",
+    "r": "#ff004d",
+    "h": "#ff77a8",
+    "b": "#5f574f",
+    "t": "#ab5236",
+    "s": "#c2c3c7",
+    "w": "#fff1e8",
+    "g": "#ffccaa"
+  },
+  "sheet": {
+    "columns": 8
+  },
+  "frames": [
+    {
+      "name": "e-stride-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkk.....",
+            "...kpkpsskb.....",
+            "...krrkbkbbgk...",
+            "....kkkkkpk.....",
+            "......kbkpk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-pass-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkk.....",
+            "....kkpsskb.....",
+            "...krpkbkbbgk...",
+            "....kk.kkpk.....",
+            ".......kkbk.....",
+            ".......kkbk.....",
+            "......kbkk......",
+            "......kk.ktk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-stride-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkk.....",
+            ".....kpsskb.....",
+            "....krkbkbbgk...",
+            "...kppkkkpk.....",
+            "......kpkbk.....",
+            ".....ktk.kbk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-pass-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkk.....",
+            ".....kpsskb.....",
+            "...krrkbkbbgk...",
+            "....kkkkkpk.....",
+            "......kkbkk.....",
+            "......kkbkk.....",
+            ".......kbkk.....",
+            ".......kk......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-idle",
+      "duration": 200,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkk.....",
+            "...kpkpsskb.....",
+            "...krrkbkbbgk...",
+            "....kkkkkpk.....",
+            "......kbbk......",
+            "......kbkk......",
+            "......kkktk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-raise",
+      "duration": 333,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkk......",
+            "......krrkk.....",
+            ".....krhkkk.....",
+            ".....krkwsk.....",
+            ".....kkrwkkgk...",
+            ".....kpskkbk....",
+            ".....kkbbbk.....",
+            ".....kbkkpk.....",
+            ".....kbbkk......",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-aim",
+      "duration": 2533,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........kkk.....",
+            ".......krrkk....",
+            "......krhkkk....",
+            "......krkwsk....",
+            ".....kpkrwkk....",
+            ".....kpskbbgk...",
+            ".....kkspkkk....",
+            ".....kpkkpk.....",
+            ".....kbbkk......",
+            ".....kbbkk......",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-recoil",
+      "duration": 167,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkk.......",
+            ".....krrkk......",
+            "....krhkkk......",
+            "....krkwsk......",
+            ".....krwkkbk....",
+            ".....kpskbgk....",
+            ".....kkbbk......",
+            ".....kpkkpk.....",
+            ".....kbbkk......",
+            ".....kbbkk......",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-stride-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            "....kkppbbk.....",
+            "...kppkkpk......",
+            "......kbbk......",
+            ".....kbk.ktk....",
+            ".....kk........."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-pass-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            "...krkppbbk.....",
+            "....kkkkpk......",
+            "......kbkk......",
+            "......kbkk......",
+            "......kbk.......",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-stride-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            "....kkppbbk.....",
+            "...krpkkpk......",
+            "......kpbk......",
+            "......ktkkbk....",
+            "..........kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-pass-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            "...krkppbbk.....",
+            "....kkkkpk......",
+            ".......kbbk.....",
+            ".......kbbk.....",
+            ".......kkbk.....",
+            ".........kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-idle",
+      "duration": 200,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            "....kkppbbk.....",
+            "...kppkkpk......",
+            "......kbbk......",
+            "......kbktk.....",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-raise",
+      "duration": 333,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......krhrkk....",
+            ".....krrpksk....",
+            ".....krrrksk....",
+            ".....kkppkkgk...",
+            ".....kpprkbk....",
+            ".....kppbbk.....",
+            ".....kkkpk......",
+            "......kbbk......",
+            ".....ktk.kbk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-aim",
+      "duration": 2533,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........kkkk....",
+            ".......krhrkk...",
+            "......krrpksk...",
+            "......krrrksk...",
+            ".....kpkppkkgk..",
+            ".....kpprkbbk...",
+            ".....kppbkk.....",
+            ".....kkkpk......",
+            "......kbbk......",
+            "......kbbk......",
+            ".....ktk.kbk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ne-recoil",
+      "duration": 167,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....krhrkk.....",
+            "....krrpksk.....",
+            "....krrrksk.....",
+            ".....kppkkbgk...",
+            ".....kpprkbk....",
+            ".....kppbkk.....",
+            ".....kkkpk......",
+            "......kbbk......",
+            "......kbbk......",
+            ".....ktk.kbk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-stride-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "....kpprppkk....",
+            "....kkkpkkk.....",
+            "......kbkbk.....",
+            "......kbkk......",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-pass-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "...kkpprppkk....",
+            "....kkkpkk......",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            "......kbktk.....",
+            ".........kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-stride-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "....kpprppkk....",
+            ".....kkpkkk.....",
+            "......kpkbk.....",
+            ".........bk.....",
+            ".........kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-pass-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "....kpprppkk....",
+            ".....kkpkk......",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            "......ktkbk.....",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-idle",
+      "duration": 200,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "....kpprppkk....",
+            "....kkkpkkk.....",
+            "......kbkbk.....",
+            "......kk.kk.....",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-raise",
+      "duration": 333,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrkkbk...",
+            "....kprrpk......",
+            ".....kkpkkk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-aim",
+      "duration": 2533,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkkgk..",
+            "....krprrrkbk...",
+            "....kprrppkk....",
+            ".....kkpkk......",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n-recoil",
+      "duration": 167,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrhrk.....",
+            "....krrrrppk....",
+            "....krrrrppk....",
+            ".....kpprkkk....",
+            "....krprrrkgk...",
+            "....kprrpbkk....",
+            ".....kkpkk......",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-stride-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskk...",
+            "...kpkpsskbgk...",
+            "...krrkskbkk....",
+            "....kkkkkpk.....",
+            "......kbkpk.....",
+            "......kbk.ktk...",
+            ".......kk..kk..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-pass-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskk...",
+            "....kkpsskbgk...",
+            "...krrkskbkk....",
+            "....kk.kkpk.....",
+            ".......kkbk.....",
+            ".......kkbk.....",
+            "........kbk.....",
+            "......ktk.kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-stride-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskk...",
+            ".....kpsskbgk...",
+            "....krkskbkk....",
+            "...kppkkkpk.....",
+            "......kpkbk.....",
+            "......ktkbk.....",
+            "......kk.kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-pass-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskk...",
+            ".....kpsskbgk...",
+            "...krrkskbkk....",
+            "....kkkkkpk.....",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            "......kbktk.....",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-idle",
+      "duration": 200,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskk...",
+            "...kpkpsskbgk...",
+            "...krrkskbkk....",
+            "....kkkkkpk.....",
+            "......kbkbk.....",
+            "......kbktk.....",
+            "......kk.kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-raise",
+      "duration": 333,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            ".......kkkk.....",
+            "......khrhkk....",
+            ".....krpkkkk....",
+            ".....krkwwksk...",
+            ".....kkrwsskkgk.",
+            ".....kpskbkbk...",
+            ".....kkskbkk....",
+            ".....kbkkpk.....",
+            ".....kbkkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-aim",
+      "duration": 2533,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "........kkkk....",
+            ".......khrhkk...",
+            "......krpkkkk...",
+            "......krkwwksk..",
+            ".....kpkrwsskk..",
+            ".....kpskbbgk...",
+            ".....kkskkbk....",
+            ".....kpkkpk.....",
+            ".....kbkkbk.....",
+            ".....kbkkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "se-recoil",
+      "duration": 167,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrhkk.....",
+            "....krpkkkk.....",
+            "....krkwwksk....",
+            ".....krwsskk....",
+            ".....kpskbgk....",
+            ".....kkskbkk....",
+            ".....kpkkpk.....",
+            ".....kbkkbk.....",
+            ".....kbkkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-stride-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswwkbk....",
+            "....kpksskgk....",
+            "....kkkpkpk.....",
+            "......ktkbk.....",
+            "......tkbk......",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-pass-a",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswwkbk....",
+            "...kkpksskgk....",
+            "....kkkpkpk.....",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            "......kbktk.....",
+            "......kk........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-stride-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswwkbk....",
+            "....kpksskgk....",
+            ".....kkpkpk.....",
+            "......kbktk.....",
+            ".......k.ktk....",
+            "..........kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-pass-b",
+      "duration": 100,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswwkbk....",
+            "....kpksskgk....",
+            "....kkkpkpk.....",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            "......ktkbk.....",
+            ".........kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-idle",
+      "duration": 200,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswwkbk....",
+            "....kpksskgk....",
+            "....kkkpkpk.....",
+            "......kbkbk.....",
+            "......kbktk.....",
+            "......kk.kk....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-raise",
+      "duration": 333,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "................",
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwk.....",
+            "....kswwkbgk....",
+            "....kpksskk.....",
+            ".....kkpkpk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-aim",
+      "duration": 2533,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswskbk....",
+            "....kpkbkgk.....",
+            ".....kkpkbk.....",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s-recoil",
+      "duration": 167,
+      "anchor": [
+        8,
+        7
+      ],
+      "ops": [
+        {
+          "op": "grid",
+          "x": 0,
+          "y": 0,
+          "rows": [
+            "......kkkk......",
+            ".....khrrrk.....",
+            "....krrkkprk....",
+            "....krkwwkrk....",
+            ".....kwswwkk....",
+            "....kkswkgk.....",
+            "....kpkbbbk.....",
+            ".....kkpkbk.....",
+            "......kbkbk.....",
+            "......kbkbk.....",
+            ".....kbk.ktk....",
+            ".....kk...kk...."
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "e-walk": {
+      "frames": [
+        "e-stride-a",
+        "e-pass-a",
+        "e-stride-b",
+        "e-pass-b"
+      ]
+    },
+    "e-hunt": {
+      "frames": [
+        "e-idle",
+        "e-raise",
+        "e-aim",
+        "e-recoil"
+      ],
+      "loop": false
+    },
+    "ne-walk": {
+      "frames": [
+        "ne-stride-a",
+        "ne-pass-a",
+        "ne-stride-b",
+        "ne-pass-b"
+      ]
+    },
+    "ne-hunt": {
+      "frames": [
+        "ne-idle",
+        "ne-raise",
+        "ne-aim",
+        "ne-recoil"
+      ],
+      "loop": false
+    },
+    "n-walk": {
+      "frames": [
+        "n-stride-a",
+        "n-pass-a",
+        "n-stride-b",
+        "n-pass-b"
+      ]
+    },
+    "n-hunt": {
+      "frames": [
+        "n-idle",
+        "n-raise",
+        "n-aim",
+        "n-recoil"
+      ],
+      "loop": false
+    },
+    "se-walk": {
+      "frames": [
+        "se-stride-a",
+        "se-pass-a",
+        "se-stride-b",
+        "se-pass-b"
+      ]
+    },
+    "se-hunt": {
+      "frames": [
+        "se-idle",
+        "se-raise",
+        "se-aim",
+        "se-recoil"
+      ],
+      "loop": false
+    },
+    "s-walk": {
+      "frames": [
+        "s-stride-a",
+        "s-pass-a",
+        "s-stride-b",
+        "s-pass-b"
+      ]
+    },
+    "s-hunt": {
+      "frames": [
+        "s-idle",
+        "s-raise",
+        "s-aim",
+        "s-recoil"
+      ],
+      "loop": false
+    }
+  }
+}
